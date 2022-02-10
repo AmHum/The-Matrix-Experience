@@ -1,0 +1,62 @@
+[
+    {
+       "title":"Vigilant",
+       "description": "When Zion's attack became imminent, the Council inquired of the fate of Morpheus and his ship, the Nebuchadnezzar. The Logos and the hovercraft Vigilant volunteered to search for the Nebuchadnezzar.",
+       "crew": "CAPTAIN: Soren FIRST MATE: Vector OPERATOR: Jax CREWMEN: Binary, Axel"
+    },
+    {
+        "title":"Logos",
+        "description": "The smallest vessel in the fleet, it supports a crew complement of only three Zion personnel: Niobe, Ghost, and Sparks. Built for sheer speed over any other attribute, the Logos has the purpose of relaying urgent information as well as serving as a carrier for its two pod-born CREWMEN. Its combat abilities are negligible when compared with other ships in the fleet. Despite the shortcomings, it features some of the most skilled crewmembers in the fleet (Niobe being one of the best pilots, and Ghost being the one of the best gunners).",
+        "crew": "CAPTAIN: Niobe FIRST MATE: Ghost OPERATOR: Sparks"
+    },
+    {
+        "title":"Icarus",
+        "description": "The Icarus (or Icharus) was a hovercraft of Zion's fleet during the Sixth Matrix Resistance, captained by Ajax. It was the second largest of the military fleet, with only the Mjolnir bigger. One of the twelve ships in the Zion military fleet, Ajax became its CAPTAIN during the Sixth Matrix Resistance. The Icarus at the Dock on Pad 3. The crew of the Icarus, along with those of the rest of the fleet, attended the Crisis Meeting to hear Niobe's news of the impending attack on Zion by an army of Sentinels and Diggers. On entering the Matrix, they took a hovercraft through the sewers to get to the rendezvous.",
+        "crew": "CAPTAIN: Ajax  FIRST MATE: Unknown OPERATOR: Unknown CREWMEN: Unknown"
+    },
+    {
+        "title":"Novalis",
+        "description": "The Novalis is part of the fleet sent to intercept the invading Sentinels. It is disabled when Bane sets off the EMP on the Caduceus, and is subsequently destroyed. The wreckage of the Novalis was in fairly good shape, and the ship was quickly rebuilt using spare parts available in Zion, and renamed the Novalis II. Its name comes from Novalis, an 18th century German novelist and poet.",
+        "crew": "CAPTAIN: Tirant FIRST MATE: Unknown OPERATOR: Unknown CREWMEN: Unknown"
+    },
+    {
+        "title":"Vishnu",
+        "description": "The Vishnu is a hovercraft that appears on landing pad 5 of the Zion dock when the Nebuchadnezzar returns to the city. It could be presumed that Vishnu was one of the hovercraft that were sent to intercept the oncoming sentinels. Although the ship was not initially disabled when Bane activated the EMP, it would have most likely been destroyed soon after.",
+        "crew": "CAPTAIN: Unknown FIRST MATE: Unknown OPERATOR: Unknown CREWMEN: Unknown"
+    },
+    {
+        "title":"Ganesha",
+        "description": "The Ganesha appears in The Matrix: Reloaded, as an unnames hovercraft at lading pad 6 in the Dock. It also appeared in a concept design sketch of a hovercraft by artist George Hull, and in the Zion Archives. Its name derives from Ganesha, the Hindu remover of obstacles.",
+        "crew": "CAPTAIN: Unknown FIRST MATE: Unknown OPERATOR: Unknown CREWMEN: Unknown"
+    },
+    {
+        "title":"Nebuchadnezzar",
+        "description": "'This is my ship...the Nebuchadnezzar, it's a hovercraft.' ― Morpheus. In The Matrix, the crew of the Nebuchadnezzar is searching for Neo, whom Morpheus believes to be The One. When they find him, he is trained and taken to see the Oracle. While returning from the Oracle, Cypher betrays the crew, gives the Agents Morpheus, and kills Dozer, Apoc, and Switch. Mouse is killed by a raiding squad of SWAT troopers when he is found in the hotel where he stands guard while waiting the rest of the crew's return. Neo and Trinity manage to save Morpheus from the agents, after which Neo is revealed to be The One.",
+        "crew": "CAPTAIN: Morpheus FIRST MATE: Trinity  OPERATOR: Link, Tank  CREWMEN: Apoc, Cypher, Dozer, Mouse, Neo, Switch "
+    },
+    {
+        "title":"Gnosis",
+        "description": "When the Zion ship captains meet within the Matrix for the Crisis Meeting, Gnosis crew members Corrupt and Wurm are assigned to guard the door to the meeting place. When Smith arrives 'looking for Neo', Corrupt speaks with him. Both Corrupt and Wurm warn the captains of the arrival of 'the Feds', a trio of Matrix Agents. When the Nebuchadnezzar returns to Zion, Neo is worshiped by some residents who believe he has the power to save them (he is clearly not comfortable with this). One elderly woman asks him to watch over her son, Jacob, who serves aboard the Gnosis.",
+        "crew": "CAPTAIN: Ice FIRST MATE: Unknown  OPERATOR: Unknown  CREWMEN: Corrupt, Wurm, Jacob "
+    },
+    {
+        "title":"Osiris",
+        "description": "The Osiris discovered the Machine army digging down towards Zion. After they were attacked by Sentinels the First Mate Jue entered the Matrix to send a desperate message using an emergency broadcast drop. Just after Jue dropped the message, the ship was destroyed by Sentinels. Its message, however, was retrieved by the Logos in an emergency operation by Captain Niobe and First Mate Ghost, and the Crisis Meeting was held to warn Zion of the army.",
+        "crew": "CAPTAIN: Thadeus FIRST MATE: Jue OPERATOR: Robbie CREWMEN: Pilot, 4 others "
+    },
+    {
+        "title":"Brahma",
+        "description": "The captain of the Brahma, Kali, was seen at the Crisis Meeting. It was part of Commander Lock's defense fleet; that the Brahma was destroyed so utterly in the Sentinel attack that nothing salvageable or identifiable remained. It was named after Brahma, a Hindu god who is the creator in the Hindu trinity, Trimurti. The captain gets her name from the Hindu goddess Kali.",
+        "crew": "CAPTAIN: Kali FIRST MATE: Unknown OPERATOR: Unknown CREWMEN: Unknown"
+    },
+    {
+        "title":"Caduceus",
+        "description": "After the Crisis Meeting, Ballard offered to help Morpheus and remain behind and wait for contact from The Oracle. While receiving her message, the crew member Bane was attacked by Smith, who overwrote his mind. During the defense of Zion, Bane/Smith killed the entire crew and used the ship's EMP to disable at least five ships (including itself, the Icarus, the Gnosis, and the Novalis). Bane was the only survivor and was saved by the Mjolnir.",
+        "crew": "CAPTAIN: Ballard FIRST MATE: Malachi OPERATOR: Unknown CREWMEN: Bane"
+    },
+    {
+        "title":"Mjolnir",
+        "description": "The Mjolnir (AKA the Hammer) is a Zion hovercraft. The ship's named is derived from Mjolnir (crusher), the hammer of the Norse thunder god, Thor. Because of this, most characters refer to the ship as the 'Hammer'. It is the largest hovercraft in the Zion fleet, thus making it extremely difficult to maneuver around tight spaces. After the failed EMP wave, the Mjolnir picked up Bane, who appears to be the only survivor of the battle between the Sentinels and the Zion fleet, but has in fact been taken over by Smith and murdered everyone on the Caduceus. Shortly later they located the crew of the Nebuchadnezzar after their ship is destroyed by a Sentinel tow bomb. Against Captain Roland's better judgment, Niobe lets Neo and Trinity (and a stowed-away Bane) take the Logos in an attempt to reach the Machine City.",
+        "crew": "CAPTAIN: Roland FIRST MATE: Colt OPERATOR: AK MEDIC: Maggie CREWMEN: Mauser"
+    }
+]   

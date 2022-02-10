@@ -14,7 +14,7 @@ image.init(
         craft_id: {
             type: DataTypes.INTEGER,
             references: {
-                model: "cabin",
+                model: "craft",
                 key: "id",
             },
         },

@@ -21,12 +21,12 @@ craft.hasMany(dashboard, {
     onDelete: 'CASCADE'
 });
 
-craft.hasMany(Image, {
+craft.hasMany(image, {
     foreignKey: 'craft_id',
     onDelete: 'CASCADE'
 });
 
-Image.belongsTo(craft, {
+image.belongsTo(craft, {
     foreignKey: 'craft_id'
 });
 

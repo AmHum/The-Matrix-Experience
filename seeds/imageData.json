@@ -1,0 +1,50 @@
+[
+    {
+        "craft_id": "1",
+        "src":"/public/images/Vigilant.PNG"
+    },
+    {
+        "craft_id": "2",
+        "src":"/public/images/Logos.PNG"
+    },
+    {
+        "craft_id": "3",
+        "src":"/public/images/Icarus.PNG"
+    },
+    {
+        "craft_id": "4",
+        "src":"/public/images/Novalis.PNG"
+    },
+    {
+        "craft_id": "5",
+        "src":"/public/images/Vishnu.PNG"
+    },
+    {
+        "craft_id": "6",
+        "src":"/public/images/Ganesha.PNG"
+    },
+    {
+        "craft_id": "7",
+        "src":"/public/images/Nebuchadnezzar.PNG"
+    },
+    {
+        "craft_id": "8",
+        "src":"/public/images/Gnosis.PNG"
+    },
+    {
+        "craft_id": "9",
+        "src":"/public/images/Osiris.PNG"
+    },
+    {
+        "craft_id": "10",
+        "src":"/public/images/Brahma.png"
+    },
+    {
+        "craft_id": "11",
+        "src":"/public/images/Caduceus.PNG"
+    },
+    {
+        "craft_id": "12",
+        "src":"/public/images/Mjolnir.PNG"
+    }
+]
