@@ -24,6 +24,7 @@ app.use(session(sess));
 
 const helpers = require('./utils/helpers');
 
+// set up Handlebars.js as template engine 
 const hbs = exphbs.create({ helpers });
 
 app.engine('handlebars', hbs.engine);
