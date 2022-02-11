@@ -1,0 +1,26 @@
+[
+    {
+        "first_name": "Trinity",
+        "last_name": "Tiff",
+        "email": "trinity@email.com",
+        "password": "password"
+    },
+    {
+       "first_name":"Morpheus",
+       "last_name":"",
+       "email":"morpheus@email.com",
+       "password":"password"
+    },
+    {
+       "first_name":"Thomas",
+       "last_name":"Anderson",
+       "email":"neo@email.com",
+       "password":"password"
+    },
+    {
+        "first_name":"Agent",
+       "last_name":"Smith",
+       "email":"agent@email.com",
+       "password":"password"
+    }
+]
