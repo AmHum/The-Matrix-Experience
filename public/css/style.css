@@ -6,8 +6,12 @@
 
 body {
   background-color: black;
-  color: rgb(88, 230, 32);
+  color: aliceblue;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+  color: greenyellow;
 }
 
 header {
@@ -35,8 +39,9 @@ header nav {
 
 header nav a {
   margin: 0 30px;
-  font-weight: lighter;
+  font-weight: light;
   font-size: 22px;
+  color: whitesmoke;
 }
 
 footer {
@@ -65,4 +70,20 @@ footer {
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  padding: 2% 4%;
+  margin: 10px;
+}
+
+.description h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 30px 0;
+}
+
+.description p {
+  font-size: 18px;
 }
