@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 
         const crafts = craftData.map(craft => craft.get({ plain: true }));
 
-        res.render('home-page', {
+        res.render('home', {
             crafts: crafts,
             loggedIn: req.session.loggedIn,
         });
@@ -34,7 +34,7 @@ router.get('/login', async (req, res) => {
             return;
         }
 
-        res.render('login-page', {
+        res.render('login', {
             pageTitle: 'Welcome to The Matrix | Login',
         });
     } catch (err) {
