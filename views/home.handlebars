@@ -19,8 +19,16 @@
     <div class="crafts">
         <ul class="craft-list">
             {{#each crafts as |craft|}}
-            <li>
-                {{> crafts-info craft }}
+            <li class="craft">
+                <div class="craft-image" style="background-image: url({{craft.images.[0].src}});"></div>
+
+                <h4 class="craft-title">{{craft.title}}</h4>
+
+                <p class="craft-info">{{craft.crew}}</p>
+
+                <a href="/craft/{{craft.id}}">
+                    <button class="craft-btn"> View Details</button>
+                </a>
             </li>
             {{/each}}
         </ul>
