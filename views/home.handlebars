@@ -16,5 +16,13 @@
         </p>
     </div>
 
-    <div class="crafts"></div>
+    <div class="crafts">
+        <ul class="craft-list">
+            {{#each crafts as |craft|}}
+            <li>
+                {{> crafts-info craft }}
+            </li>
+            {{/each}}
+        </ul>
+    </div>
 </div>
