@@ -92,6 +92,11 @@ footer {
   line-height: 30px;
 }
 
+.description span {
+  color: rgb(84, 219, 30);
+  font-weight: bold;
+}
+
 .craft-list {
   list-style: none;
   display: flex;
