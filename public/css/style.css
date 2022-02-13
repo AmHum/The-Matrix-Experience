@@ -51,7 +51,6 @@ footer {
   color: black;
   text-align: right;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .hero {
@@ -77,6 +76,10 @@ footer {
   margin: 10px;
 }
 
+.description {
+  margin: 40px;
+}
+
 .description h3 {
   font-size: 30px;
   font-weight: bold;
@@ -86,6 +89,7 @@ footer {
 
 .description p {
   font-size: 18px;
+  line-height: 30px;
 }
 
 .craft-list {
@@ -97,23 +101,25 @@ footer {
 
 .craft {
   display: block;
-  margin: 20px 40px 20px 0;
-  width: 30%;
+  margin: 40px auto;
+  width: 28%;
 }
 
 .craft-image {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  height: 300px;
+  max-width: 100%;
 }
 
 .craft-title {
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .craft-info {
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .craft-btn {
