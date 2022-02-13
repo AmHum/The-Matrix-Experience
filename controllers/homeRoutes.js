@@ -42,17 +42,17 @@ router.get('/login', async (req, res) => {
     }
 });
 
-router.get('/favs/:id', (req, res) => {
-    favs.findOne({
+router.get('/dashboard/:id', (req, res) => {
+    dashboard.findOne({
       where: {
         id: req.params.id
       },
       attributes: [
         'id',
-        'favs_url',
+        'dashboard_url',
         'title',
         'created_at',
-        [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE favs.id = vote.favs_id)'), 'vote_count']
+        [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE dashboard.id = vote.dashboard_id)'), 'vote_count']
       ],
       include: [
         {
@@ -61,17 +61,17 @@ router.get('/favs/:id', (req, res) => {
         }
       ]
     })
-      .then(dbfavsData => {
-        if (!dbfavsData) {
-          res.status(404).json({ message: 'No favs found with this id' });
+      .then(dbdashboardData => {
+        if (!dbdashboardData) {
+          res.status(404).json({ message: 'No dashboard found with this id' });
           return;
         }
   
         // serialize the data
-        const favs = dbfavsData.get({ plain: true });
+        const dashboard = dbdashboardData.get({ plain: true });
   
         // pass data to template
-        res.render('single-favs', { favs });
+        res.render('single-dashboard', { dashboard });
       })
       .catch(err => {
         console.log(err);
