@@ -1,13 +1,4 @@
 {
-  "name": "project-2",
-  "version": "1.0.0",
-  "description": "project 2 for coding-bootcamp test",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seeds": "node seeds/seed.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AmHum/project-2.git"
@@ -28,5 +19,13 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.16.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seeds": "node seeds/seed.js"
+  },
+  "name": "project-2",
+  "description": "project 2 for coding-bootcamp",
+  "version": "1.0.0",
+  "main": "server.js"
 }
