@@ -10,7 +10,6 @@ router.get("/:id", async (req, res) => {
       include: [
         {
           model: image,
-          limit: 1,
           attributes: ["src"],
         },
       ],
