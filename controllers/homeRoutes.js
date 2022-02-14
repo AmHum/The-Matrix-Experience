@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 
         const crafts = craftData.map(craft => craft.get({ plain: true }));
 
-        res.render('home-page', {
+        res.render('home', {
             crafts: crafts,
             loggedIn: req.session.loggedIn,
         });
