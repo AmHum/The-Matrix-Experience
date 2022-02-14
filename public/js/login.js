@@ -16,8 +16,8 @@ async function loginFormHandler(event) {
     const response = await fetch("/api/users/login", {
       method: "post",
       body: JSON.stringify({
-        email,
-        password,
+        email: email,
+        password: password,
       }),
       headers: { "Content-Type": "application/json" },
     });
@@ -47,8 +47,8 @@ async function signupFormHandler(event) {
       body: JSON.stringify({
         first_name: firstname,
         last_name: lastname,
-        email,
-        password,
+        email: email,
+        password: password,
       }),
       headers: { "Content-Type": "application/json" },
     });
