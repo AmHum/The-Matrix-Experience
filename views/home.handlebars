@@ -12,9 +12,28 @@
             <br>
             The protection and freedom of humanity from the oppression by the Machines and its continued use of the
             Matrix
-            to imprison and control most of humanity.
+            to imprison and control most of humanity. <br>
+
+            <br>
+            <span>12 notable hovercrafts</span> seen or mentioned in the live-action trilogy:
         </p>
     </div>
 
-    <div class="crafts"></div>
+    <div class="crafts">
+        <ul class="craft-list">
+            {{#each crafts as |craft|}}
+            <li class="craft">
+                <img class="craft-image" src="{{craft.images.[0].src}}"></img>
+
+                <h4 class="craft-title">{{craft.title}}</h4>
+
+                <p class="craft-crew">{{craft.crew}}</p>
+
+                <a href="/craft/{{craft.id}}">
+                    <button class="craft-btn"> View Details</button>
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
 </div>
