@@ -286,3 +286,10 @@ footer {
   border: none;
   border-radius: 5px;
 }
+
+/* dashboard page  */
+
+.dashborad h2 {
+  font-size: 30px;
+  text-align: center;
+}

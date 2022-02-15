@@ -23,7 +23,7 @@ async function loginFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace("/dashboard/");
+      document.location.replace("/dashboard");
     } else {
       alert(response.statusText);
     }
@@ -54,15 +54,15 @@ async function signupFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace("/dashboard/");
+      document.location.replace("/dashboard");
     } else {
       alert(response.statusText);
     }
   }
 }
 
-loginForm.addEventListener("submit", loginFormHandler);
+signupBtn.addEventListener("click", signupFormHandler);
 loginBtn.addEventListener("click", loginFormHandler);
 
+loginForm.addEventListener("submit", loginFormHandler);
 signupForm.addEventListener("submit", signupFormHandler);
-signupBtn.addEventListener("click", signupFormHandler);

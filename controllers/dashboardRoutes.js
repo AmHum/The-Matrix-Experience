@@ -16,7 +16,6 @@ router.get("/", withAuth, async (req, res) => {
         include: [
           {
             model: image,
-            limit: 1,
             attributes: ["src"],
           },
         ],
