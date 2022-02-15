@@ -6,15 +6,20 @@
         <ul class="favorite">
             {{#each favorites as |favorite|}}
             <li class="favorite-craft">
-                <img class="craft-image" src="{{favorite.craft.images.[0].src}}"></img>
 
-                <h3 class="craft-title">{{favorite.craft.title}}</h3>
+                <div class="img-div">
+                    <img class="favorite-image" src="{{favorite.craft.images.[0].src}}"></img>
+                </div>
 
-                <a href="/craft/{{favorite.craft.id}}">
-                    <button class="craft-btn"> View Details</button>
-                </a>
+                <div class="info-div">
+                    <h3 class="favorite-title">{{favorite.craft.title}}</h3>
 
-                <button class="remove-btn" id="{{favorite.id}}">Remove Favorite</button>
+                    <a href="/craft/{{favorite.craft.id}}"><button class="craft-btn"> View Details</button></a>
+
+                    <button class="remove-btn" id="{{favorite.id}}">Remove Favorite</button>
+
+                </div>
+
             </li>
             {{/each}}
         </ul>
