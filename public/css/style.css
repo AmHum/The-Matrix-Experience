@@ -357,6 +357,9 @@ footer {
   .craft-image {
     height: 150px;
   }
+  .form {
+    width: 40%;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -364,12 +367,15 @@ footer {
   .craft {
     width: 45%;
   }
+
+  .form {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .hero {
     height: 300px;
-    margin-top: 30px;
   }
   .hero-text {
     font-size: 35px;
@@ -382,20 +388,33 @@ footer {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
-  /* header h1 {
-    font-size: 30px;
-  } */
+  header h1 {
+    font-size: 25px;
+  }
+
+  header nav a,
+  .logout-btn {
+    font-size: 18px;
+  }
 
   .hero {
     height: 200px;
   }
   .hero-text {
-    font-size: 30px;
+    font-size: 25px;
   }
   .description p {
     font-size: 15px;
   }
   .craft {
     width: 90%;
+  }
+  .form {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .form h2 {
+    font-size: 25px;
   }
 }
