@@ -1,33 +1,33 @@
-const User = require('./User');
-const dashboard = require('./dashboard');
-const craft = require('./craft');
-const image = require("./image")
+const User = require("./User");
+const favorite = require("./favorite");
+const craft = require("./craft");
+const image = require("./image");
 
-User.hasMany(dashboard, {
-    foreignKey: 'user_id',
-    onDelete: 'CASCADE'
+User.hasMany(favorite, {
+  foreignKey: "user_id",
+  onDelete: "CASCADE",
 });
 
-dashboard.belongsTo(User, {
-    foreignKey: 'user_id'
+favorite.belongsTo(User, {
+  foreignKey: "user_id",
 });
 
-dashboard.belongsTo(craft, {
-    foreignKey: 'craft_id'
+favorite.belongsTo(craft, {
+  foreignKey: "craft_id",
 });
 
-craft.hasMany(dashboard, {
-    foreignKey: 'craft_id',
-    onDelete: 'CASCADE'
+craft.hasMany(favorite, {
+  foreignKey: "craft_id",
+  onDelete: "CASCADE",
 });
 
 craft.hasMany(image, {
-    foreignKey: 'craft_id',
-    onDelete: 'CASCADE'
+  foreignKey: "craft_id",
+  onDelete: "CASCADE",
 });
 
 image.belongsTo(craft, {
-    foreignKey: 'craft_id'
+  foreignKey: "craft_id",
 });
 
-module.exports = { User, dashboard, craft, image };
+module.exports = { User, favorite, craft, image };
