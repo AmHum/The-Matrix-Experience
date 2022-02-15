@@ -62,7 +62,7 @@ footer {
 
 .hero {
   background-image: url("../images/hero.jpg");
-  height: 500px;
+  height: 420px;
   background-size: cover;
   background-position: center;
   position: static;
@@ -72,7 +72,7 @@ footer {
 .hero-text {
   color: aliceblue;
   font-size: 45px;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   text-align: center;
@@ -116,7 +116,7 @@ footer {
 }
 
 .craft {
-  display: flex;
+  display: block;
   margin: 40px auto;
   width: 28%;
   flex-wrap: wrap;
@@ -126,6 +126,7 @@ footer {
   display: flex;
   margin-bottom: 20px;
   max-width: 100%;
+  height: 200px;
 }
 
 .craft-title {
@@ -333,13 +334,68 @@ footer {
 .remove-btn {
   display: inline-block;
   color: whitesmoke;
-  background-color: rgb(150, 34, 5);
+  background-color: rgb(194, 46, 9);
   font-size: 15px;
   padding: 10px 10px;
   border: none;
   border-radius: 5px;
 }
 
+.remove-btn:hover {
+  background-color: red;
+}
+
 .info-div a {
   margin-right: 30%;
+}
+
+/* MEDIA QUERY FOR Large screen and SMALLER */
+@media screen and (max-width: 1300px) {
+  .hero {
+    height: 350px;
+  }
+  .craft-image {
+    height: 150px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 992px) {
+  .craft {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 300px;
+    margin-top: 30px;
+  }
+  .hero-text {
+    font-size: 35px;
+  }
+  .description p {
+    font-size: 17px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+  /* header h1 {
+    font-size: 30px;
+  } */
+
+  .hero {
+    height: 200px;
+  }
+  .hero-text {
+    font-size: 30px;
+  }
+  .description p {
+    font-size: 15px;
+  }
+  .craft {
+    width: 90%;
+  }
 }
