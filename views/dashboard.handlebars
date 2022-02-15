@@ -1,25 +1,26 @@
 <div class="dashborad">
-    <h2>Your Favorites</h2>
+    <h2>Your Favorite Hovercraft ❤️</h2>
 
-    {{#if favorites}}
-    <ul class="favorites">
-        {{#each favorites as |favorite|}}
-        <li class="favorite-craft">
-            <img class="craft-image" src="{{favorite.craft.images.[0].src}}"></img>
+    <div class="favorites">
+        {{#if favorites}}
+        <ul class="favorite">
+            {{#each favorites as |favorite|}}
+            <li class="favorite-craft">
+                <img class="craft-image" src="{{favorite.craft.images.[0].src}}"></img>
 
-            <h3 class="craft-title">{{favorite.craft.title}}</h3>
+                <h3 class="craft-title">{{favorite.craft.title}}</h3>
 
-            <a href="/craft/{{favorite.craft.id}}">
-                <button class="craft-btn"> View Details</button>
-            </a>
+                <a href="/craft/{{favorite.craft.id}}">
+                    <button class="craft-btn"> View Details</button>
+                </a>
 
-            <button class="remove-btn" id="{{favorite.id}}">Remove Favorite</button>
-        </li>
-        {{/each}}
-    </ul>
+                <button class="remove-btn" id="{{favorite.id}}">Remove Favorite</button>
+            </li>
+            {{/each}}
+        </ul>
 
-    {{else}}
-    <p class="alert-message">You don't have favorites yet!</p>
-    {{/if}}
-
+        {{else}}
+        <p class="alert-message">No favorites yet!</p>
+        {{/if}}
+    </div>
 </div>
