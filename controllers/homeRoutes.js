@@ -71,7 +71,7 @@ router.get('/dashboard/:id', (req, res) => {
         const dashboard = dbdashboardData.get({ plain: true });
   
         // pass data to template
-        res.render('single-dashboard', { dashboard });
+        res.render('dashboard', { dashboard });
       })
       .catch(err => {
         console.log(err);
