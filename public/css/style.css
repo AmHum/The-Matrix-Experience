@@ -376,6 +376,7 @@ footer {
 @media screen and (max-width: 768px) {
   .hero {
     height: 300px;
+    margin-top: 12px;
   }
   .hero-text {
     font-size: 35px;
@@ -401,7 +402,10 @@ footer {
     height: 200px;
   }
   .hero-text {
-    font-size: 25px;
+    font-size: 23px;
+  }
+  .description {
+    margin: 0;
   }
   .description p {
     font-size: 15px;
