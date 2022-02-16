@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS matrix_db;
+
+CREATE DATABASE matrix_db;

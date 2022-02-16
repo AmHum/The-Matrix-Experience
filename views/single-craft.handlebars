@@ -1,0 +1,22 @@
+<div class="single-craft">
+    <img class="craft-img" src="{{crafts.images.[0].src}}"></img>
+    <h4 class="craft-title">{{crafts.title}}</h4>
+    <p class="craft-crew"><span>Crew Information: </span><br>{{crafts.crew}}</p>
+    <p class="craft-info"><span>Description:</span><br>{{crafts.description}}</p>
+
+    {{#if loggedIn}}
+    <div class="favorites-div">
+        <button onclick="location.href='/dashboard'" type="button" class="favorite-btn">Add it to your favorites
+            ❤️</button>
+    </div>
+
+    {{else}}
+    <div class="message-div">
+        <p class="message">Like this craft? <a href="/login">Login</a> to the website!</p>
+    </div>
+
+    {{/if}}
+
+</div>
+
+<script src="/js/favorite.js"></script>
