@@ -130,9 +130,9 @@ footer {
 }
 
 .craft-title {
-  font-size: auto;
+  font-size: 24px;
   margin-bottom: 20px;
-  padding: 0 auto 0 0;
+  padding: 0;
 }
 
 .craft-crew {
@@ -315,10 +315,9 @@ footer {
   list-style: none;
 }
 
-.favorite-craft div {
+.favorite-div {
   display: inline-block;
   width: 40%;
-  margin: auto;
 }
 
 .favorite-image {
@@ -328,7 +327,16 @@ footer {
 
 .favorite-title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+}
+
+.details-div,
+.remove-div {
+  display: inline-block;
+}
+
+.remove-div {
+  float: right;
 }
 
 .remove-btn {
@@ -345,12 +353,8 @@ footer {
   background-color: red;
 }
 
-.info-div a {
-  margin-right: 30%;
-}
-
 /* MEDIA QUERY FOR Large screen and SMALLER */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1385px) {
   .hero {
     height: 350px;
   }
@@ -359,6 +363,13 @@ footer {
   }
   .form {
     width: 40%;
+  }
+  .favorites {
+    margin: 20px auto 10% auto;
+  }
+  .favorite-image {
+    width: 250px;
+    height: 200px;
   }
 }
 
@@ -371,18 +382,43 @@ footer {
   .form {
     width: 50%;
   }
+
+  .favorite-image {
+    width: 200px;
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+  header nav a,
+  .logout-btn {
+    font-size: 20px;
+  }
+
   .hero {
     height: 300px;
-    margin-top: 12px;
   }
   .hero-text {
     font-size: 35px;
   }
   .description p {
     font-size: 17px;
+  }
+  .favorites {
+    margin: 20px 5% 10% 5%;
+  }
+  .favorite-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 10px;
   }
 }
 
@@ -400,6 +436,7 @@ footer {
 
   .hero {
     height: 200px;
+    margin-top: 25px;
   }
   .hero-text {
     font-size: 23px;
@@ -420,5 +457,24 @@ footer {
 
   .form h2 {
     font-size: 25px;
+  }
+
+  .favorites-div {
+    margin: 60px 5%;
+  }
+  .favorite-btn {
+    font-size: 18px;
+  }
+
+  .favorite-image {
+    width: 150px;
+    height: 100px;
+  }
+
+  .dashborad {
+    margin-top: 40px;
+  }
+  .dashborad h2 {
+    font-size: 20px;
   }
 }

@@ -7,17 +7,20 @@
             {{#each favorites as |favorite|}}
             <li class="favorite-craft">
 
-                <div class="img-div">
+                <div class="favorite-div">
                     <img class="favorite-image" src="{{favorite.craft.images.[0].src}}"></img>
                 </div>
 
-                <div class="info-div">
+                <div class="favorite-div">
                     <h3 class="favorite-title">{{favorite.craft.title}}</h3>
-                        <input type="hidden" value="{{favorite.id}}" id="recordThing"/>
-                    <a href="/craft/{{favorite.craft.id}}"><button class="craft-btn"> View Details</button></a>
+                    <input type="hidden" value="{{favorite.id}}" id="recordThing" />
 
-                    <button class="remove-btn" id="{{favorite.id}}">Remove Favorite</button>
-
+                    <div class="details-div">
+                        <a href="/craft/{{favorite.craft.id}}"><button class="craft-btn"> View Details</button></a>
+                    </div>
+                    <div class="remove-div">
+                        <button class="remove-btn" id="{{favorite.id}}">Remove Favorite</button>
+                    </div>
                 </div>
 
             </li>
