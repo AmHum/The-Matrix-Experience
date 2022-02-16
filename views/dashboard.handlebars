@@ -13,7 +13,7 @@
 
                 <div class="info-div">
                     <h3 class="favorite-title">{{favorite.craft.title}}</h3>
-
+                        <input type="hidden" value="{{favorite.id}}" id="recordThing"/>
                     <a href="/craft/{{favorite.craft.id}}"><button class="craft-btn"> View Details</button></a>
 
                     <button class="remove-btn" id="{{favorite.id}}">Remove Favorite</button>
