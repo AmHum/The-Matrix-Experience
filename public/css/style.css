@@ -420,6 +420,17 @@ footer {
     flex-direction: column;
     margin-bottom: 10px;
   }
+  .craft-btn {
+    padding: 5px 50px;
+    margin-bottom: 15px;
+  }
+  .remove-btn {
+    padding: 5px 45px;
+  }
+
+  .favorite-title {
+    margin-bottom: 10px;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
